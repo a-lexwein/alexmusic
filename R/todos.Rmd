@@ -1,0 +1,29 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Todos:
+
+# Repo Structure
+
+db
+- templates
+
+1. SQL template: top songs and artists over interval
+1. New
+1. Sessionization
+
+# change consumer to only query since last query
+
+# way to track which songs I have cached metadata
+
+Batch of 25 songs comes in:
+
+1. check which are in last
+
+```{sql, eval=FALSE}
+select track_id
+from plays
+where track_artist WHATWHAT
+```
